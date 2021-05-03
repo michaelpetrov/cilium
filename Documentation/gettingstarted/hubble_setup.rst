@@ -119,8 +119,7 @@ Now you can validate that you can access the Hubble API via the installed CLI:
 
 .. code:: shell-session
 
-    hubble status --server localhost:4245
-    Handling connection for 4245
+    hubble status
     Healthcheck (via localhost:4245): Ok
     Current/Max Flows: 11917/12288 (96.98%)
     Flows/s: 11.74
@@ -130,7 +129,7 @@ You can now query the flow API and look for flows
 
 .. code:: bash
 
-   hubble --server localhost:4245 observe
+   hubble observe
 
 Next Steps
 ==========
